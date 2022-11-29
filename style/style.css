@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapperhead{
+    background: #000000; 
+    margin-bottom: 135px;
+}
+.containerhead{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding: 10px 0;
+  
+}
+.main_ul{
+    text-align: center;
+    
+    display: flex;
+    justify-content: center; 
+    column-gap: 15px; 
+    
+    
+    
+}
+.main_ul > li{
+    text-transform: uppercase;
+    position: relative;
+   
+   
+   
+} 
+.main_ul > li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    
+}
+.main_ul > li:hover .second_ul,
+.second_ul > li:hover .third_ul{
+    display:block;
+}
+
+.main_ul > li:hover,
+.second_ul > li:hover,
+.third_ul> li:hover {
+  background: red;  
+}
+.second_ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+.second_ul > li{
+    position: relative;
+}
+.third_ul{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+   
+    
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+   
+    display: flex;
+    align-items: center;
+    
+}
+.logo > a{
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+}
+.fale_list{
+    padding: 0 10px;
+}
+
+.h111{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+}
